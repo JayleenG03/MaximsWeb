@@ -1,0 +1,49 @@
+
+body{
+    background-image: url(m10.png);
+    background-position: center absolute;
+    background-size: cover ;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+@font-face {
+    font-family: 'sunflower';
+    src: url(Sun\ Flower.ttf);
+}
+
+h1{
+    font-family: 'sunflower';
+    text-align: center;
+    font-size: 400%;
+    animation: color 4s infinite;
+}
+
+@keyframes color {
+    0% {color: rgb(255, 56, 56);}
+    25%{color: rgb(104, 74, 255);}
+    50%{color: rgb(255, 0, 200);}
+    100%{color: rgb(0, 131, 0);}
+
+}
+
+.main-nav {
+
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+}
+
+.main-nav a:hover {
+    background-color: rgb(109, 109, 228);
+    color: #ffffff;
+}

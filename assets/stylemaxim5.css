@@ -1,0 +1,56 @@
+@font-face {
+    font-family: night;
+    src: url(Night\ Brush.ttf);
+}
+
+body{
+    background-image: url(m5.png);
+    background-position: center absolute;
+    background-size: cover ;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+h1{
+    font-family: 'night';
+    font-size: 100px;
+    text-align: right;
+    cursor: pointer;
+}
+
+h1 span{
+    position: relative; 
+    filter: blur(5px);
+    padding: 0 5px;
+    transition: 0.5s;
+    
+}
+
+h1 span:hover
+{
+    filter: blur(0px);
+    transition: 0s;
+}
+
+.main-nav {
+
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+}
+
+.main-nav a:hover {
+    background-color: rgb(109, 109, 228);
+    color: #ffffff;
+}

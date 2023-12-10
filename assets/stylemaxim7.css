@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'post';
+    src: url(POSTOFFICE.ttf);
+}
+body{
+    background-image: url(m7.png);
+    background-position: center absolute;
+    background-size: cover ;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h2{
+    font-family: 'post';
+    text-align: left;
+}
+
+h2:hover{
+    text-decoration: line-through;
+}
+h1{
+    font-family: 'post';
+    text-align: right;
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    color: white;
+    
+}
+
+h1:hover{
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e68600, 0 0 40px #e67300, 0 0 50px #e65800, 0 0 60px #e63d00, 0 0 70px rgb(230, 107, 0);
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #fff94d, 0 0 40px #fff34d, 0 0 50px #ffed4d, 0 0 60px #fffc4d, 0 0 70px #fff64d, 0 0 80px #ffb54d;
+    }
+  }
+
+  .main-nav {
+
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+}
+
+.main-nav a:hover {
+    background-color: rgb(109, 109, 228);
+    color: #ffffff;
+}

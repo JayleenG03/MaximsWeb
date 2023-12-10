@@ -1,0 +1,81 @@
+@font-face {
+    font-family: type;
+    src: url(JMH\ Typewriter-Bold.ttf);
+}
+
+@font-face {
+    font-family: blackletter;
+    src: url(Blacklettersh.ttf);
+}
+
+body{
+    background-image: url(m8.png);
+    background-position: center absolute;
+    background-size: cover ;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    font-family: 'blackletter';
+    font-size: 60px;
+    position: absolute;
+    top:25%;
+    left:30%;
+    overflow: hidden; 
+    border-right: .15em solid rgb(0, 0, 0); 
+    white-space: nowrap; 
+    margin: 0 auto;
+    letter-spacing: .15em; 
+    animation: typing 3.5s steps(40, end), blink .75s step-end infinite;
+}
+
+h2{
+    font-family: 'type';
+    position: absolute;
+    font-size: 30px;
+    top: 38%;
+    left: 33%;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);  
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+    linkTextCursor 500ms steps(44) infinite normal;
+
+}
+
+@keyframes blink {
+        from, to { border-color: transparent }
+        50% { border-color: brown; }
+    
+}
+@keyframes typewriter{
+    from{width: 0;}
+    to{width: 24em;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }
+
+  .main-nav {
+
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+}
+
+.main-nav a:hover {
+    background-color: rgb(109, 109, 228);
+    color: #ffffff;
+}

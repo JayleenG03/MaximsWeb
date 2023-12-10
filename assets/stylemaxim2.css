@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'witch';
+    src: url(the\ Witch.ttf);
+}
+
+body{
+    background-image: url(m2.png);
+    background-position: center absolute;
+    background-size: cover ;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    cursor: pointer;
+}
+
+h1{
+    font-family: 'witch';
+    font-size: 50px;
+    text-align: left;
+}
+
+h1:hover{
+    background-color: rgb(246, 60, 60);
+   font-size: 100px;
+   -webkit-animation:spin 4s linear infinite;
+-moz-animation:spin 4s linear infinite;
+animation:spin 4s linear infinite;
+}
+
+
+@-moz-keyframes spin { 
+100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+100% { 
+    -webkit-transform: rotate(360deg); 
+    transform:rotate(360deg); 
+} 
+}
+
+.main-nav {
+
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+}
+
+.main-nav a:hover {
+    background-color: rgb(109, 109, 228);
+    color: #ffffff;
+}
